@@ -3,14 +3,16 @@
 	padding: 0 ;
 }
 
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em ;
-	background-image: url("background.jpg");
+	background-image: url("https://cloud.githubusercontent.com/assets/8053875/4211609/40912a36-388c-11e4-88ff-43aa9871dab0.jpg");
 	margin:0 auto ;
 	padding: 0 ;
 	border: 0;
 }
+
 section {
 	border: 0px;
 	background-color: #fff;
@@ -21,7 +23,7 @@ section {
 header {
 	text-align: center;
 	background-color: #45A3BC;
-	background-image: url("mcgill.jpg");
+	background-image: url("https://cloud.githubusercontent.com/assets/8053875/4211636/ef3e2f0c-388c-11e4-825a-ec9c44d8dfa6.jpg");
 	background-repeat: no-repeat;
 	color: white;
 	height: 7em;
@@ -78,24 +80,6 @@ nav ul li:hover ul li a:hover {
 		background: #7dbfd0;
 }
 
-/* section h4{
-	color: #ececec;
-	font-style: italic;
-	clear: both;
-	text-align: center;
-	background: #45A3BC;	
-}
-
-#imageBox {
-	margin-left: 100px;
-}
-
-#intro, #text{
-	padding: 15px 0;
-	margin: 0 25px;
-	text-align: justify;
-} */
-
 .social {
 	width: 130px;
 	height: 40px;
@@ -107,17 +91,17 @@ nav ul li:hover ul li a:hover {
 }
 
 .social > p:nth-child(1) > a::before {
-	content:url('facebook.png');
+	content:url('https://cloud.githubusercontent.com/assets/8053875/3565947/54b35eda-0add-11e4-96e1-d690bb7fb7a0.png');
 	padding-right: 10px;
 }
 
 .social > p:nth-child(2)>a::before {
-	content:url('twitter.png');
+	content:url('https://cloud.githubusercontent.com/assets/8053875/3565948/56bcf74a-0add-11e4-9bc6-739d41b75ccc.png');
 	padding-right: 10px;
 }
 
 .social > p:nth-child(3)>a::before {
-	content:url('linkedin.png');
+	content:url('https://cloud.githubusercontent.com/assets/8053875/3565946/5189cc76-0add-11e4-8fb7-d406538c5179.png');
 	padding-right: 10px;
 }
 
