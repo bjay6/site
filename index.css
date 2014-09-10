@@ -1,0 +1,17 @@
+section h4{
+	color: #ececec;
+	font-style: italic;
+	clear: both;
+	text-align: center;
+	background: #45A3BC;	
+}
+
+#imageBox {
+	margin-left: 100px;
+}
+
+#intro, #text{
+	padding: 15px 0;
+	margin: 0 25px;
+	text-align: justify;
+}

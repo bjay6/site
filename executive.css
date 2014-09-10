@@ -1,113 +1,5 @@
-* {
-	margin: 0;
-	padding: 0 ;
-}
-
-body {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1em ;
-	background-image: url("https://cloud.githubusercontent.com/assets/8053875/4211609/40912a36-388c-11e4-88ff-43aa9871dab0.jpg");
-	margin:0 auto ;
-	padding: 0 ;
-	border: 0;
-}
-section {
-	border: 0px;
-	background-color: #fff;
-	width: 980px;
-	margin: 0 auto;
-}
-
-header {
-	text-align: center;
-	background-color: #45A3BC;
-	background-image: url("https://cloud.githubusercontent.com/assets/8053875/4211636/ef3e2f0c-388c-11e4-825a-ec9c44d8dfa6.jpg");
-	background-repeat: no-repeat;
-	color: white;
-	height: 7em;
-}
-
-nav {
-	background: #708090;
-/*	overflow: hidden; */
-	height: 3em;
-	padding-left: 20px;
-}
-
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-nav li {
-	float: left;
-	font-size: 1.3em;
-	line-height: 2;
-	font-variant: small-caps;
-	letter-spacing: 1.5px;
-}
-
-nav a {
-	padding: 10px 15px;
-	color: white;
-	font-weight: bold;
-	text-align: center;
-	border-radius: 5px;
-	text-decoration: none;
-}
-
-nav a:hover {
-	background-color: #45A3BC;
-}
-
-a {
-  text-decoration: none;
-}
-
-nav ul li:hover { 
-	position:relative; 
-	background:#45A3BC;	
-}
-
-nav ul li:hover ul li a{
-	display:block;
-	font-size: 0.7em;
-}
-
-nav ul li:hover ul li a:hover {
-		background: #7dbfd0;
-}
-
-
-.social {
-	width: 130px;
-	height: 40px;
-	position: absolute;
-	top: 0;
-	right: 0;
-}
-
-.social p{
-  float: left;
-}
-
-.social > p:nth-child(1) > a::before {
-	content:url('https://cloud.githubusercontent.com/assets/8053875/3565947/54b35eda-0add-11e4-96e1-d690bb7fb7a0.png');
-	padding-right: 10px;
-}
-
-.social > p:nth-child(2)>a::before {
-	content:url('https://cloud.githubusercontent.com/assets/8053875/3565948/56bcf74a-0add-11e4-9bc6-739d41b75ccc.png');
-	padding-right: 10px;
-}
-
-.social > p:nth-child(3)>a::before {
-	content:url('https://cloud.githubusercontent.com/assets/8053875/3565946/5189cc76-0add-11e4-8fb7-d406538c5179.png');
-	padding-right: 10px;
-}
-
 article {
-	width: 750px;
+	width: 850px;
 	height: 250px;
 	clear: both;
 }
@@ -117,17 +9,13 @@ img{
 	clear: right;
 }
 
-#first p, #second p, #third p, #fourth p{
+h4 {
 	margin-left: 320px;
+	margin-bottom: 10px;
 }
-footer {
-    clear: both;
-	font-style: italic;
-	font-size: 1em;
-	text-align: center;
-	background: #45A3BC;
-	height: 50px;
-	padding-top: 5px;
-	color: #ececec;
-	font-weight: bold;
+
+#first p, #second p, #third p, #fourth p{
+	width: 600px;
+	margin-left: 320px;
+	text-align: justify;
 }
