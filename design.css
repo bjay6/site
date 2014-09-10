@@ -93,17 +93,17 @@ nav ul li:hover ul li a:hover {
 }
 
 .social > p:nth-child(1) > a::before {
-	content:url('../images/facebook.png');
+	content:url('https://cloud.githubusercontent.com/assets/8053875/3565947/54b35eda-0add-11e4-96e1-d690bb7fb7a0.png');
 	padding-right: 10px;
 }
 
 .social > p:nth-child(2)>a::before {
-	content:url('../images/twitter.png');
+	content:url('https://cloud.githubusercontent.com/assets/8053875/3565948/56bcf74a-0add-11e4-9bc6-739d41b75ccc.png');
 	padding-right: 10px;
 }
 
 .social > p:nth-child(3)>a::before {
-	content:url('../images/linkedin.png');
+	content:url('https://cloud.githubusercontent.com/assets/8053875/3565946/5189cc76-0add-11e4-8fb7-d406538c5179.png');
 	padding-right: 10px;
 }
 
