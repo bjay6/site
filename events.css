@@ -1,0 +1,12 @@
+h4 {
+	text-align: center;
+	margin: 5px;
+}
+
+img {
+	padding: 10px 5px;
+}
+
+#img1, #img4{
+	margin-left: 20px;
+}
