@@ -1,9 +1,9 @@
 section h4{
 	color: #ececec;
 	font-style: italic;
-	clear: both;
 	text-align: center;
-	background: #45A3BC;	
+	background: #45A3BC;
+	padding-top: 10px;
 }
 
 #imageBox {

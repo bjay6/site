@@ -1,6 +1,6 @@
 * {
 	margin: 0;
-	padding: 0 ;
+	padding: 0;
 }
 
 body {
@@ -30,54 +30,53 @@ header {
 }
 
 nav {
+	width: auto;
+	height: 30px;
 	background: #708090;
-	overflow: hidden;
-	height: 3em;
-	padding-left: 20px;
 }
 
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+#navmenu , .submenu{
+	list-style-type: none;	
 }
-nav li {
+
+#navmenu li {
+	width: 125px;
+	text-align: center;
+	position: relative;
 	float: left;
-	font-size: 1.3em;
-	line-height: 2;
+	margin-right: 4px;
 	font-variant: small-caps;
 	letter-spacing: 1.5px;
 }
 
-nav a {
-	padding: 10px 15px;
+#navmenu a {
+	text-decoration: none;
+	display: block;
+	width: 125px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 5px;
 	color: white;
 	font-weight: bold;
-	text-align: center;
-	border-radius: 5px;
-	text-decoration: none;
 }
 
-nav a:hover {
+.submenu a {
+	margin-top: 5px;
+}
+
+#navmenu li:hover a {
 	background-color: #45A3BC;
 }
 
-a {
-  text-decoration: none;
+#navmenu .submenu {
+	display: none;
+	position: absolute;
+	top: 26px;
+	left: 0px;
 }
 
-nav ul li:hover { 
-	position:relative; 
-	background:#45A3BC;	
-}
-
-nav ul li:hover ul li a{
-	display:block;
-	font-size: 0.7em;
-}
-
-nav ul li:hover ul li a:hover {
-		background: #7dbfd0;
+#navmenu li:hover .submenu  {
+	display: block;
 }
 
 .social {
