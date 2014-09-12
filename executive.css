@@ -1,0 +1,21 @@
+article {
+	width: 850px;
+	height: 250px;
+	clear: both;
+}
+
+img{
+	float: left;
+	clear: right;
+}
+
+h4 {
+	margin-left: 320px;
+	margin-bottom: 10px;
+}
+
+#first p, #second p, #third p, #fourth p{
+	width: 600px;
+	margin-left: 320px;
+	text-align: justify;
+}
