@@ -7,6 +7,7 @@
 	  <!--Stylesheet for screen view.-->
 	  <link rel="stylesheet" type="text/css" href="design.css" /> 	
 	  <link rel="stylesheet" type="text/css" href="events.css" /> 	  
+	  <script src="events.js" type="text/javascript"></script>	  
 </head>
 
 <body>
@@ -26,22 +27,20 @@
 					<li><a href="executive.html">Executive</a></li>
 				</ul>
 			</li>
-			<li><a href="events.html">Events</a></li>
-			<li><a href="contacts.html">Contacts</a></li>
+			<li><a href="events.html">Events</a>
+				<ul class="submenu">
+					<li><a href="photos.html">Photos</a></li>
+				</ul>
+			</li>
+			<li><a href="contacts.html">Contact Us</a>
+				<ul class="submenu">
+					<li><a href="membership.html">MemberShip</a></li>
+				</ul>
+			</li>
 		</ul>
 	</nav>
 	
-	<h4>Major Events</h4>
-	
-	<p id="intro">Name of Event Date Time Location </p>
-	
-	<h4>Photos from Past Events</h4>
-	
-	<img id="img1" src="newYear.jpg" alt="image1" width="300" height="200" />
-	<img id="img2" src="newYear2.jpg" alt="image2" width="300" height="200" />
-	<img id="img3" src="newYear3.jpg" alt="image3" width="300" height="200" />	
-	<img id="img4" src="newYear4.jpg" alt="image4" width="300" height="200" />
-	<img id="img5" src="newYear5.jpg" alt="image5" width="300" height="200" />	
+	<iframe id="calendar" src="https://www.google.com/calendar/embed?src=bluej605%40gmail.com&ctz=America/Toronto" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 	
 	<aside class="social">
 		<p><a href="http://www.facebook.com"></a></p>
